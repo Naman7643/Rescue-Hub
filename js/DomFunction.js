@@ -9,7 +9,7 @@ function dropDown($){
     const dropdown = get('#right-sidebar')
     var linkfile;
    const param = `?key=${btoa(key)}`
-   linkfile ='https://naman7643.github.io/Google-Drive-Clone/fileSharing/' + param
+   linkfile ='https://naman7643.github.io/data-rescue-hub/fileSharing/' + param
     dropdown.style.display = 'flex'
     get('#button-Delete').setAttribute("data-id", key);
     get('#date').textContent = date
